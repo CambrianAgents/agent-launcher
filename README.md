@@ -1,8 +1,10 @@
+<p align="center">
+  <img src="public/logo-lime.png" alt="Cambrian AI Assistant" width="200"/>
+</p>
+
 # Cambrian SEI AI Agent
 
 A chat interface for interacting with an AI assistant that can communicate with the Sei blockchain.
-
-![Cambrian AI Assistant](public/logo-lime.png)
 
 ## Getting Started
 
