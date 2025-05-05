@@ -17,8 +17,8 @@ A chat interface for interacting with an AI assistant that can communicate with 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/chatbot-interface.git
-   cd chatbot-interface
+   git clone https://github.com/yourusername/agent-launcher.git
+   cd agent-launcher
    ```
 
 2. Install dependencies:
