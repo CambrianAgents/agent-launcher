@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="public/logo-lime.png" alt="Cambrian AI Assistant" width="200"/>
+  <img src="public/full-logo-lime.png" alt="Cambrian AI Assistant" width="800"/>
 </p>
 
 # Cambrian SEI AI Agent
