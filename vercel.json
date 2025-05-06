@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "buildCommand": "npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "OPENAI_API_KEY": "@openai_api_key",
+    "SEI_PRIVATE_KEY": "@sei_private_key",
+    "RPC_URL": "@rpc_url"
+  }
+} 

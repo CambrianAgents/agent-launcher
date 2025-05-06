@@ -55,3 +55,53 @@ For more details on the available features, visit our [website](https://www.camb
 
 ## Contact
 Follow us on [X](https://x.com/cambrian_ai)
+
+# Sei Agent Deployment
+
+## Quick Deployment
+
+### Deploy on Vercel (Recommended)
+
+The easiest way to deploy this agent is using [Vercel](https://vercel.com):
+
+1. Push your code to a GitHub repository
+2. Go to [Vercel](https://vercel.com) and sign up or log in
+3. Click "Add New Project" and import your GitHub repository
+4. Configure the following environment variables:
+   - `OPENAI_API_KEY`
+   - `SEI_PRIVATE_KEY`
+   - `RPC_URL`
+5. Click "Deploy"
+
+### Alternative: Deploy on Netlify
+
+1. Push your code to a GitHub repository
+2. Go to [Netlify](https://netlify.com) and sign up or log in
+3. Click "Add new site" → "Import an existing project"
+4. Connect to your GitHub repository
+5. Configure the build settings:
+   - Build command: `npm run build`
+   - Publish directory: `.next`
+6. Add the environment variables in the site settings
+7. Deploy the site
+
+## Environment Setup
+
+Before deploying, make sure you have the following environment variables set:
+
+```
+OPENAI_API_KEY=your_openai_api_key
+SEI_PRIVATE_KEY=your_sei_private_key
+RPC_URL=your_rpc_url
+```
+
+## Local Development
+
+To run the agent locally:
+
+```bash
+npm install
+npm run dev
+```
+
+Visit [http://localhost:3000](http://localhost:3000) to see your agent in action.
