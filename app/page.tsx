@@ -138,7 +138,7 @@ export default function ChatInterface() {
       {/* Header */}
       <header className="flex items-center justify-between p-4 border-b border-[#333333] bg-[#1c1c1c]/80 backdrop-blur-md z-10">
         <div className="flex items-center gap-2">
-          <Bot className="h-6 w-6 text-[#ccff33]" />
+          <img src="/sei-logo.png" alt="Logo" className="h-6 w-6" />
           <h1 className="text-xl font-bold">SEI AI Agent</h1>
         </div>
         <div className="flex items-center gap-2">
@@ -148,14 +148,17 @@ export default function ChatInterface() {
       </header>
 
       {/* Chat container */}
-      <div className="flex-1 overflow-y-auto p-4 space-y-4">
+      <div className="flex-1 overflow-y-auto p-4 space-y-4 relative z-1">
         {showWelcome && messages.length === 0 && (
           <div className="flex flex-col items-center justify-center h-full space-y-4 text-center">
             <div className="w-16 h-16 rounded-full bg-gradient-to-br from-[#ccff33] to-[#7dcc00] flex items-center justify-center">
               {/* <Bot className="h-8 w-8 text-[#1c1c1c]" /> */}
-              <img src="/logo-black.png" alt="Logo" className="h-12 w-12" />
+              <img src="/sei-logo-black.png" alt="Logo" className="h-12 w-12" />
             </div>
-            <h2 className="text-2xl font-bold">Welcome to the Cambrian AI Assistant</h2>
+            <h2 className="text-2xl font-bold">Welcome to the SEI AI Agent</h2>
+            <h5 className="text-sm text-[#fcf7f0]/70 flex items-center justify-center gap-1">
+              Powered by<img src="/logo-lime.png" alt="Cambrian" className="h-3 w-3" />Cambrian
+            </h5>
             <p className="text-[#fcf7f0]/70 max-w-md">
               Ask me anything and I'll do my best to help you. I can interact with the Sei blockchain.
             </p>
