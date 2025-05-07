@@ -141,9 +141,11 @@ export default function ChatInterface() {
           <img src="/sei-logo.png" alt="Logo" className="h-6 w-6" />
           <h1 className="text-xl font-bold">SEI AI Agent</h1>
         </div>
-        <div className="flex items-center gap-2">
-          <img src="/logo-lime.png" alt="Logo" className="h-5 w-5" />
-          <span className="text-sm text-[#fcf7f0]/70">Powered by Cambrian</span>
+        <div className="flex items-center gap-1">
+          <a href="https://cambrian.wtf" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1">
+            <img src="/logo-lime.png" alt="Logo" className="h-5 w-5" />
+            <span className="text-sm text-[#fcf7f0]/70">Powered by Cambrian</span>
+          </a>
         </div>
       </header>
 
