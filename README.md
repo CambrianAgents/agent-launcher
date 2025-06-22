@@ -79,7 +79,7 @@ Example queries:
 
 | Script | Purpose | When to Use |
 |--------|---------|-------------|
-| `./install-and-run.sh` | Complete setup and launch | First time setup, non-developers |
+| `./run-agent.sh` | Complete setup and launch | First time setup, non-developers |
 | `./setup-env.sh` | Environment variable setup only | Updating API keys, manual setup |
 
 ## Troubleshooting

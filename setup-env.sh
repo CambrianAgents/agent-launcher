@@ -35,7 +35,8 @@ prompt_input() {
     while true; do
         if [ "$is_secret" = true ]; then
             echo -n -e "${BLUE}Paste your $description here${NC}: "
-            read input_value
+            read -s input_value
+            echo  # Add newline after hidden input
         else
             echo -n -e "${BLUE}Enter $description${NC}"
             if [ -n "$default_value" ]; then
