@@ -8,12 +8,28 @@ A chat interface for interacting with an AI assistant that can communicate with 
 
 ## Getting Started
 
-### Prerequisites
+### 🚀 Quick Start (Recommended for Non-Developers)
+
+**One-click setup!** Just run this single command and everything will be set up automatically:
+
+```bash
+./install-and-run.sh
+```
+
+This script will:
+- ✅ Check and install Node.js (if needed)
+- 📦 Install all dependencies
+- 🔧 Guide you through environment setup
+- 🚀 Start the development server
+
+### 🛠️ Manual Installation (For Developers)
+
+#### Prerequisites
 
 - Node.js 16+
 - npm
 
-### Installation
+#### Installation Steps
 
 1. Clone the repository:
    ```bash
@@ -26,12 +42,14 @@ A chat interface for interacting with an AI assistant that can communicate with 
    npm install
    ```
 
-3. Create a .env file
+3. Set up environment variables:
    ```bash
-   cp .env.example .env
+   ./setup-env.sh
    ```
-   Modify the .env file adding your Sei wallet 0x private key, your OpenAI api key and the relevant Sei RPC (you can use the default value)
-
+   This interactive script will guide you through setting up your:
+   - OpenAI API key
+   - Sei wallet private key
+   - RPC URL (defaults to https://evm-rpc.sei-apis.com)
 
 4. Start the development server:
    ```bash
@@ -49,6 +67,32 @@ Example queries:
 - "How much sei do I own?"
 - "Swap 5 sei for USDC."
 - "Stake 3 sei."
+
+## Scripts Overview
+
+| Script | Purpose | When to Use |
+|--------|---------|-------------|
+| `./install-and-run.sh` | Complete setup and launch | First time setup, non-developers |
+| `./setup-env.sh` | Environment variable setup only | Updating API keys, manual setup |
+
+## Troubleshooting
+
+### Common Issues
+
+**"Node.js not found" error:**
+- The install script will automatically install Node.js for you
+- If manual installation is needed, visit [nodejs.org](https://nodejs.org)
+
+**"Permission denied" error:**
+- Make sure the scripts are executable: `chmod +x *.sh`
+
+**Environment variables not working:**
+- Re-run the environment setup: `./setup-env.sh`
+- Check that your `.env` file exists and contains the required variables
+
+**Port 3000 already in use:**
+- Stop other applications using port 3000, or
+- The app will automatically try the next available port
 
 ## Additional Information
 For more details on the available features, visit our [website](https://www.cambrian.wtf/) or the [official Sei Agent Kit repository](https://github.com/CambrianAgents/sei-agent-kit).
