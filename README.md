@@ -14,7 +14,7 @@ A chat interface for interacting with an AI assistant that can communicate with 
 
 1. Clone the repo
  ```bash
-   git clone https://github.com/yourusername/agent-launcher.git
+   git clone https://github.com/CambrianAgents/agent-launcher
    cd agent-launcher
    ```
 
@@ -40,7 +40,7 @@ This script will:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/agent-launcher.git
+   git clone https://github.com/CambrianAgents/agent-launcher
    cd agent-launcher
    ```
 
