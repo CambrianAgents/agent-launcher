@@ -12,6 +12,13 @@ A chat interface for interacting with an AI assistant that can communicate with 
 
 **One-click setup!** Just run this single command and everything will be set up automatically:
 
+1. Clone the repo
+ ```bash
+   git clone https://github.com/yourusername/agent-launcher.git
+   cd agent-launcher
+   ```
+
+2. Run the script and follow the few steps requested
 ```bash
 ./install-and-run.sh
 ```
