@@ -20,7 +20,7 @@ A chat interface for interacting with an AI assistant that can communicate with 
 
 2. Run the script and follow the few steps requested
 ```bash
-./install-and-run.sh
+./run-agent.sh
 ```
 
 This script will:
